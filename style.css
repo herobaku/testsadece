@@ -70,17 +70,17 @@ header ul li a {
 }
 
 .sign a {
-    background: brown;
-    transition: all .5s linear;
-    &:hover {
-        background: black;
-    }
-}
-
-.register a{
     background: black;
     transition: all .5s linear;
     &:hover {
         background: brown;
+    }
+}
+
+.register a{
+    background: brown;
+    transition: all .5s linear;
+    &:hover {
+        background: black;
     }
 }
