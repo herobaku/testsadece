@@ -13,10 +13,13 @@ ul {
 }
 
 body {
-    
+    background: #fff;
 }
 
-.container {}
+.container {
+    width: min(100%, 992px);
+    margin: auto;
+}
 
 .flex {
     display: flex;
@@ -24,4 +27,60 @@ body {
 
 .justify-between {
     justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.logo a {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gray;
+}
+
+header {
+    padding: 15px 0;
+}
+
+header ul {
+    gap: 10px;
+}
+
+header ul li a {
+    display: block;
+    text-transform: uppercase;
+    color: black;
+    font-size: 18px;
+}
+
+.sign,
+.register {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.sign a,
+.register a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    display: block;
+}
+
+.sign a {
+    background: brown;
+    transition: all .5s linear;
+    &:hover {
+        background: black;
+    }
+}
+
+.register a{
+    background: black;
+    transition: all .5s linear;
+    &:hover {
+        background: brown;
+    }
 }
