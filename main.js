@@ -15,7 +15,7 @@ burger.addEventListener("click", (e) => {
         if (item.style.display === "none") {
             item.style.display = "block";
             document.body.classList.add("no-scroll");
-            if(!modal.classList.contains("active")){
+            if (!modal.classList.contains("active")) {
                 modal.classList.add("active");
             } else {
                 modal.classList.remove("active");
@@ -26,3 +26,5 @@ burger.addEventListener("click", (e) => {
         }
     });
 });
+
+console.log("salam")
